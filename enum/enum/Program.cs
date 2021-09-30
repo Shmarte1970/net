@@ -17,7 +17,13 @@ namespace ConsoleApp2 {
 
             var todayIs = Days.Jueves;
 
-            var mensaje = "Hola hoy es " + monday;          
+            var mensaje = "Hola hoy es " + todayIs;          
+
+            Console.WriteLine(mensaje);
+
+            todayIs = Days.Miercoles;
+
+            mensaje = "Hola hoy es " + todayIs;
 
             Console.WriteLine(mensaje);
         }
