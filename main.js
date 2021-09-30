@@ -1,6 +1,6 @@
 var year2 = 2021;
 var month2 = 333220015;
-var decimales2 = 1.7 f;
+var decimales2 = 1.7;
 var nombre2 = "Tipo String";
 var visiesto2 = true;
 
