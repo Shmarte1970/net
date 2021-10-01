@@ -13,3 +13,4 @@ D:\net\HolaMundo\HolaMundo\obj\Debug\net6.0\HolaMundo.dll
 D:\net\HolaMundo\HolaMundo\obj\Debug\net6.0\ref\HolaMundo.dll
 D:\net\HolaMundo\HolaMundo\obj\Debug\net6.0\HolaMundo.pdb
 D:\net\HolaMundo\HolaMundo\obj\Debug\net6.0\HolaMundo.genruntimeconfig.cache
+D:\net\HolaMundo\HolaMundo\obj\Debug\net6.0\HolaMundo.csproj.AssemblyReference.cache

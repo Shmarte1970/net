@@ -1,0 +1,6 @@
+D:\net\HolaMundo\obj\Debug\net6.0\HolaMundo.GlobalUsings.g.cs
+D:\net\HolaMundo\obj\Debug\net6.0\HolaMundo.csproj.AssemblyReference.cache
+D:\net\HolaMundo\obj\Debug\net6.0\HolaMundo.GeneratedMSBuildEditorConfig.editorconfig
+D:\net\HolaMundo\obj\Debug\net6.0\HolaMundo.AssemblyInfoInputs.cache
+D:\net\HolaMundo\obj\Debug\net6.0\HolaMundo.AssemblyInfo.cs
+D:\net\HolaMundo\obj\Debug\net6.0\HolaMundo.csproj.CoreCompileInputs.cache
