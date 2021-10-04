@@ -14,3 +14,17 @@ D:\net\Calculadora\Calculadora\obj\Debug\Calculadora.csproj.GenerateResource.cac
 D:\net\Calculadora\Calculadora\obj\Debug\Calculadora.csproj.CoreCompileInputs.cache
 D:\net\Calculadora\Calculadora\obj\Debug\Calculadora.exe
 D:\net\Calculadora\Calculadora\obj\Debug\Calculadora.pdb
+E:\xampp\htdocs\net\Calculadora\Calculadora\bin\Debug\Calculadora.exe.config
+E:\xampp\htdocs\net\Calculadora\Calculadora\obj\Debug\Calculadora.exe
+E:\xampp\htdocs\net\Calculadora\Calculadora\obj\Debug\Calculadora.pdb
+E:\xampp\htdocs\net\Calculadora\Calculadora\bin\Debug\Calculadora.exe
+E:\xampp\htdocs\net\Calculadora\Calculadora\bin\Debug\Calculadora.pdb
+E:\xampp\htdocs\net\Calculadora\Calculadora\obj\Debug\Calculadora.csprojResolveAssemblyReference.cache
+E:\xampp\htdocs\net\Calculadora\Calculadora\obj\Debug\MainWindow.g.cs
+E:\xampp\htdocs\net\Calculadora\Calculadora\obj\Debug\App.g.cs
+E:\xampp\htdocs\net\Calculadora\Calculadora\obj\Debug\Calculadora_MarkupCompile.cache
+E:\xampp\htdocs\net\Calculadora\Calculadora\obj\Debug\Calculadora_MarkupCompile.lref
+E:\xampp\htdocs\net\Calculadora\Calculadora\obj\Debug\MainWindow.baml
+E:\xampp\htdocs\net\Calculadora\Calculadora\obj\Debug\Calculadora.g.resources
+E:\xampp\htdocs\net\Calculadora\Calculadora\obj\Debug\Calculadora.Properties.Resources.resources
+E:\xampp\htdocs\net\Calculadora\Calculadora\obj\Debug\Calculadora.csproj.GenerateResource.Cache
