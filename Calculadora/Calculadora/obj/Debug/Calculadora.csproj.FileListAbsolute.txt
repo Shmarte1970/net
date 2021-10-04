@@ -1,0 +1,16 @@
+D:\net\Calculadora\Calculadora\bin\Debug\Calculadora.exe.config
+D:\net\Calculadora\Calculadora\bin\Debug\Calculadora.exe
+D:\net\Calculadora\Calculadora\bin\Debug\Calculadora.pdb
+D:\net\Calculadora\Calculadora\obj\Debug\Calculadora.csproj.AssemblyReference.cache
+D:\net\Calculadora\Calculadora\obj\Debug\Calculadora.csproj.SuggestedBindingRedirects.cache
+D:\net\Calculadora\Calculadora\obj\Debug\MainWindow.g.cs
+D:\net\Calculadora\Calculadora\obj\Debug\App.g.cs
+D:\net\Calculadora\Calculadora\obj\Debug\Calculadora_MarkupCompile.cache
+D:\net\Calculadora\Calculadora\obj\Debug\Calculadora_MarkupCompile.lref
+D:\net\Calculadora\Calculadora\obj\Debug\MainWindow.baml
+D:\net\Calculadora\Calculadora\obj\Debug\Calculadora.g.resources
+D:\net\Calculadora\Calculadora\obj\Debug\Calculadora.Properties.Resources.resources
+D:\net\Calculadora\Calculadora\obj\Debug\Calculadora.csproj.GenerateResource.cache
+D:\net\Calculadora\Calculadora\obj\Debug\Calculadora.csproj.CoreCompileInputs.cache
+D:\net\Calculadora\Calculadora\obj\Debug\Calculadora.exe
+D:\net\Calculadora\Calculadora\obj\Debug\Calculadora.pdb
