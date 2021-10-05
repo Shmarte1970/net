@@ -178,8 +178,7 @@ namespace Calculadora
             }
 
             if (Raiz)
-            {
-               
+            {               
                 double Cuadrada;
                 Cuadrada = (Math.Sqrt(num1));
                 pantalla.Content = Cuadrada.ToString();
