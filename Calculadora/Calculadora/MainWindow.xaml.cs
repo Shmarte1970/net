@@ -25,25 +25,102 @@ namespace Calculadora
             InitializeComponent();
         }
 
-      
+        public int num1 { get; set; }
+
+        public bool AnadirNumero { get; set; }
 
         private void btn_CE_Click(object sender, RoutedEventArgs e)
         {
             pantalla.Content = "";
         }
 
-        private void btn_7_Click(object sender, RoutedEventArgs e)
+        private void btn_1_Click(object sender, RoutedEventArgs e)
         {
-            pantalla.Content += "7";
+            pantalla.Content += "1";
+        }
+
+        private void btn_2_Click(object sender, RoutedEventArgs e)
+        {
+            pantalla.Content += "2";
+        }
+
+        private void btn_3_Click(object sender, RoutedEventArgs e)
+        {
+            pantalla.Content += "3";
+        }
+
+        private void btn_4_Click(object sender, RoutedEventArgs e)
+        {
+            pantalla.Content += "4";
+        }
+
+        private void btn_5_Click(object sender, RoutedEventArgs e)
+        {
+
         }
 
         private void btn_6_Click(object sender, RoutedEventArgs e)
         {
-            pantalla.Content += "6";
+
+        }
+
+        private void btn_7_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btn_8_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btn_9_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btn_suma_Click(object sender, RoutedEventArgs e)
+        {
+            num1 = int.Parse(pantalla.Content.ToString());
+            pantalla.Content = "";
+            AnadirNumero = true;
+            
+
+        }
+
+        private void btn_resta_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btn_multi_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btn_divison_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btn_sqrt_Click(object sender, RoutedEventArgs e)
+        {
+
         }
 
         private void btn_Igual_Click(object sender, RoutedEventArgs e)
         {
+            var num2 = int.Parse(pantalla.Content.ToString());
+
+            if (AnadirNumero) {
+                var suma = num1 + num2;
+                pantalla.Content = suma.ToString();
+            }
+        }
+
+        private void Suma() 
+        {
+            var num1 = Int32.Parse(pantalla.Content.ToString());
 
         }
     }
