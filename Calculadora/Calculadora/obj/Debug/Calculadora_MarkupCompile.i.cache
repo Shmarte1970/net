@@ -4,23 +4,17 @@
 winexe
 C#
 .cs
-D:\net\Calculadora\Calculadora\obj\Debug\
+E:\xampp\htdocs\net\Calculadora\Calculadora\obj\Debug\
 Calculadora
 none
 false
 DEBUG;TRACE
-D:\net\Calculadora\Calculadora\App.xaml
+E:\xampp\htdocs\net\Calculadora\Calculadora\App.xaml
 21475443318
 
-<<<<<<< HEAD
-9-1795178798
+10-1336007970
 14-1807326491
-MainWindow.xaml;
-=======
-10651917487
-13738642453
 MainWindow.xaml;pantallaOperadorControl.xaml;
->>>>>>> 3e552e1a5cedb52acdda1c5def64c8a8d991ca3d
 
 False
 
