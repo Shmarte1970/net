@@ -48,13 +48,17 @@ namespace CalcCS
 
         private void Suma(string numero1, string numero2) {
 
+
+            
             int num1 = int.Parse(PantallaNum1.Text);
             int num2 = int.Parse(PantallaNum2.Text);
            
 
             int resultado = num1 + num2;
 
-            PantallaResultado.Content = num1+" Más "+num2+" = "+resultado;
+
+
+            PantallaResultado.Content = num1 + " Más " + num2 + " = " + resultado;
             PantallaNum1.Text = "";
             PantallaNum2.Text = "";
         
