@@ -33,6 +33,11 @@ namespace LoginYCalculadoras
 
         private void btn_Calc1_Click(object sender, RoutedEventArgs e)
         {
+            Calc1 calc1 = new Calc1();
+
+            calc1.Show();
+
+            this.Close();
 
         }
     }
