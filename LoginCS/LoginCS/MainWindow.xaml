@@ -8,7 +8,11 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid>
         <Image x:Name="UserImg" Margin="104,85,607,266" Source="/User.png"/>
-        <Image x:Name="PassImg" Margin="107,253,610,98" Source="/pass.png" />
+        <Image x:Name="PassImg" Margin="107,253,610,98" Source="/pass.png" >
+            <Image.OpacityMask>
+                <ImageBrush ImageSource="/pass.png"/>
+            </Image.OpacityMask>
+        </Image>
         <Label x:Name="EtiqUser" Content="Usuario" HorizontalAlignment="Left" Height="55" Margin="122,25,0,0" VerticalAlignment="Top" Width="208" FontSize="35" FontWeight="Bold" Padding="14,5,5,5"/>
         <Label x:Name="EtqPass" Content="Password" HorizontalAlignment="Left" Height="55" Margin="122,0,0,0" VerticalAlignment="Center" Width="208" FontSize="35" FontWeight="Bold" Padding="14,5,5,5"/>
         <TextBox x:Name="TextBoxUser" HorizontalAlignment="Left" Height="50" Margin="226,102,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="274" FontSize="18" FontFamily="Verdana" Padding="0,10,0,10" ScrollViewer.CanContentScroll="True"/>

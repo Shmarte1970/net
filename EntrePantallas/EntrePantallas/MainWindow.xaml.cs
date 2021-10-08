@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace LoginCS
+namespace EntrePantallas
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
@@ -23,21 +23,17 @@ namespace LoginCS
         public MainWindow()
         {
             InitializeComponent();
-        }
+        }        
 
-        private void btnSend_Click(object sender, RoutedEventArgs e)
+        private void btn_next_Click(object sender, RoutedEventArgs e)
         {
-        string usuario = TextBoxUser.Text;
-        string password = TextBoxPass.Password;
+            Pantalla2 pantalla2= new Pantalla2();
 
-            if (usuario == "LindaPandero" && password == "1234")
-            {
-                labelResul.Content = "Adelante";
-            }
-            else
-            {
-                labelResul.Content = "Usuario no reconocido";
-            }
+            pantalla2.Show();
+
+            this.Close();
+
+
         }
     }
 }
