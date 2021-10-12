@@ -8,13 +8,19 @@
 
   <ItemGroup>
     <None Remove="arrow_left.png" />
+    <None Remove="Calc1.png" />
+    <None Remove="Calc2.png" />
     <None Remove="pass.png" />
+    <None Remove="Power.png" />
     <None Remove="User.png" />
   </ItemGroup>
 
   <ItemGroup>
     <Resource Include="arrow_left.png" />
+    <Resource Include="Calc1.png" />
+    <Resource Include="Calc2.png" />
     <Resource Include="pass.png" />
+    <Resource Include="Power.png" />
     <Resource Include="User.png" />
   </ItemGroup>
 

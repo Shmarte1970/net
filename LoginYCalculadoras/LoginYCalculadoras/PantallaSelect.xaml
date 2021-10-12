@@ -11,11 +11,19 @@
             <ColumnDefinition Width="159*"/>
             <ColumnDefinition Width="41*"/>
         </Grid.ColumnDefinitions>
-        <Button x:Name="btn_logout" Content="Atras" HorizontalAlignment="Left" Margin="320,328,0,0" VerticalAlignment="Top" Height="61" Width="135" FontSize="20" FontWeight="Bold" FontFamily="Verdana" Click="btn_logout_Click"/>
-        <Image x:Name="ImgCalc1" Margin="102,61,422,266" Source="/Calc1.png" Stretch="Fill"/>
+        <Button x:Name="btn_logout" Content="Atras" HorizontalAlignment="Left" Margin="336,329,0,0" VerticalAlignment="Top" Height="61" Width="134" FontSize="20" FontWeight="Bold" FontFamily="Verdana" Click="btn_logout_Click"/>
+        <Image x:Name="ImgCalc1" Margin="102,61,422,266" Source="/Calc1.png" Stretch="Fill">
+            <Image.OpacityMask>
+                <ImageBrush ImageSource="/Calc1.png"/>
+            </Image.OpacityMask>
+        </Image>
         <Button x:Name="btn_Calc1" Content="Calculadora Simple" HorizontalAlignment="Left" Height="71" Margin="277,77,0,0" VerticalAlignment="Top" Width="252" FontSize="18" FontWeight="Bold" FontFamily="Verdana" Click="btn_Calc1_Click"/>
-        <Image Margin="102,182,422,181" Source="/Calc2.png" Stretch="Fill"/>
-        <Button x:Name="btn_Calc1_Copy" Content="Calculadora " HorizontalAlignment="Left" Height="71" Margin="277,0,0,0" VerticalAlignment="Center" Width="252" FontSize="20" FontWeight="Bold" FontFamily="Verdana" Click="btn_Calc1_Click"/>
+        <Image Margin="102,182,422,181" Source="/Calc2.png" Stretch="Fill">
+            <Image.OpacityMask>
+                <ImageBrush ImageSource="/Calc2.png"/>
+            </Image.OpacityMask>
+        </Image>
+        <Button x:Name="BtnCalc2" Content="Calculadora" HorizontalAlignment="Left" Margin="277,0,0,0" VerticalAlignment="Center" Height="72" Width="252" FontSize="20" FontFamily="Verdana" FontWeight="Bold" Click="BtnCalc2_Click"/>
 
     </Grid>
 </Window>

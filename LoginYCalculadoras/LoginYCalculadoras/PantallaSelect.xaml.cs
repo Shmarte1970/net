@@ -40,5 +40,14 @@ namespace LoginYCalculadoras
             this.Close();
 
         }
+
+        private void BtnCalc2_Click(object sender, RoutedEventArgs e)
+        {
+            Calc2 calc2 = new Calc2();
+
+            calc2.Show();
+
+            this.Close();
+        }
     }
 }

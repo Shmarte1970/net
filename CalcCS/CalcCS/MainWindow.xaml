@@ -12,8 +12,8 @@
         <Button x:Name="BtnMulti" HorizontalAlignment="Left" Margin="548,23,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.132,-0.145" Height="69" Width="131" Content="*" Click="BtnMulti_Click" FontSize="80" FontWeight="Bold" Padding="1,-12,1,1"/>
         <Button x:Name="BtnDiv" Content="/" HorizontalAlignment="Left" Margin="548,110,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.132,-0.145" Height="69" Width="131" Click="BtnDiv_Click" FontSize="70" FontWeight="Bold" Padding="1,-20,1,1"/>
         <Label x:Name="PantallaResultado" Content="" HorizontalAlignment="Left" Height="69" Margin="45,217,0,0" VerticalAlignment="Top" Width="634" Background="#FFD4CECE" FontSize="40" FontWeight="Bold" Padding="5,-10,5,5"/>
-        <TextBox x:Name="PantallaNum1" HorizontalAlignment="Left" Height="69" Margin="45,23,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="338" FontSize="55" FontWeight="Bold" Padding="0,-10,-11,0"/>
-        <TextBox x:Name="PantallaNum2" HorizontalAlignment="Left" Height="69" Margin="45,110,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="338" FontSize="55" Padding="0,-10,0,0" FontWeight="Bold"/>
+        <TextBox x:Name="PantallaNum1" HorizontalAlignment="Left" Height="69" Margin="45,23,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="338" FontSize="55" FontWeight="Bold" Padding="0,-10,-11,0" UndoLimit="102" FlowDirection="RightToLeft" MaxLength="10"/>
+        <TextBox x:Name="PantallaNum2" HorizontalAlignment="Left" Height="69" Margin="45,110,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="338" FontSize="55" Padding="0,-10,0,0" FontWeight="Bold" FlowDirection="RightToLeft" MaxLength="10"/>
 
     </Grid>
 </Window>
