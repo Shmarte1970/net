@@ -1,5 +1,3 @@
-let confirma;
-
 
 
 document.querySelector('#Login').addEventListener('click', () => {
@@ -9,7 +7,7 @@ document.querySelector('#Login').addEventListener('click', () => {
     const valor1 = document.querySelector('#email').value;
     const valor2 = document.querySelector('#pass').value;
 
-    if (valor1 == 'shmarte@gmail.com' && valor2 == '1234') {
+    if (valor1 == 'LindaPandero' && valor2 == '1234') {
         document.querySelector('#confirma').innerHTML = "Datos Correctos";
         // document.querySelector('#Tengo').innerHTML = valor1 + " " + valor2;
     } else {
