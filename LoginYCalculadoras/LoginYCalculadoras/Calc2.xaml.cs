@@ -12,9 +12,7 @@ using System.Windows.Shapes;
 
 namespace LoginYCalculadoras
 {
-    /// <summary>
-    /// Lógica de interacción para Calc2.xaml
-    /// </summary>
+    
     public partial class Calc2 : Window
     {
         public Calc2()
@@ -95,7 +93,18 @@ namespace LoginYCalculadoras
             int Control = 0;
             Bs = Pantalla1.Text;
             Control = Bs.Length - 1;
-            Bs = Bs.Substring(0, Control);
+
+            // Control de Errores 
+
+            try   
+            {
+                Bs = Bs.Substring(0, Control);
+            }
+            catch (Exception ex)
+            {
+                
+            }
+            
             Pantalla1.Text = Bs;
         }
 
@@ -145,7 +154,17 @@ namespace LoginYCalculadoras
 
         private void BtnSQRT_Click(object sender, RoutedEventArgs e)
         {
-            Numero1 = double.Parse(Pantalla1.Text);
+
+            // Control de Errores
+            try 
+            {
+                Numero1 = double.Parse(Pantalla1.Text);
+            } 
+            catch (Exception ex)
+            {
+                Pantalla1.Text = "Error";
+            }
+            
             Resultado = Math.Sqrt(Numero1);
             Pantalla2.Text = "Sqrt " + Numero1.ToString();
             Pantalla1.Text = Resultado.ToString();
