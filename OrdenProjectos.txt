@@ -3,7 +3,8 @@ Aquesta és l'estructura de les Carpetes d'al curs .NET
 
 
 Arrays → Conceptes i Exemples d'Arrays
-CalcCS → Calculadora Gràfica en C#
+CaclCS --> Calculadora C# Petita
+CalcCSGrande →  Calculadora Gràfica en C#
 CaclJS → Calculadora Senzilla en Jscript.
 EntrePantallas → Exemple de canvi entre pantalles
 enum → Exemple enum
