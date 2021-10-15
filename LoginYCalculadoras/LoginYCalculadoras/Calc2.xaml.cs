@@ -94,9 +94,13 @@ namespace LoginYCalculadoras
             Bs = Pantalla1.Text;
             Control = Bs.Length - 1;
 
+
+            // Ejemplo region 
+
+            #region Control Errores
             // Control de Errores 
 
-            try   
+            try
             {
                 Bs = Bs.Substring(0, Control);
             }
@@ -104,7 +108,9 @@ namespace LoginYCalculadoras
             {
                 
             }
-            
+
+            #endregion
+
             Pantalla1.Text = Bs;
         }
 
@@ -155,8 +161,11 @@ namespace LoginYCalculadoras
         private void BtnSQRT_Click(object sender, RoutedEventArgs e)
         {
 
+            // Ejemplo uso regiones 
+
+            #region Control de Errores
             // Control de Errores
-            try 
+            try
             {
                 Numero1 = double.Parse(Pantalla1.Text);
             } 
@@ -164,14 +173,17 @@ namespace LoginYCalculadoras
             {
                 Pantalla1.Text = "Error";
             }
-            
+
+#
+
             Resultado = Math.Sqrt(Numero1);
             Pantalla2.Text = "Sqrt " + Numero1.ToString();
             Pantalla1.Text = Resultado.ToString();
 
         }
 
-     
+        #endregion
+
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
             PantallaSelect pantallaSelect = new PantallaSelect();
@@ -180,6 +192,9 @@ namespace LoginYCalculadoras
 
             this.Close();
         }
+
+
+        
 
         private void BtnIgual_Click(object sender, RoutedEventArgs e)
         {
@@ -214,6 +229,8 @@ namespace LoginYCalculadoras
                 Pantalla1.Text = Resultado.ToString();
             }
         }
+
+        
 
         private void Btn0_Click(object sender, RoutedEventArgs e)
         {

@@ -15,9 +15,7 @@ using System.Windows.Shapes;
 
 namespace CalcCSGrande
 {
-    /// <summary>
-    /// Interaction logic for MainWindow.xaml
-    /// </summary>
+   
     public partial class MainWindow : Window
     {
         public MainWindow()
@@ -99,6 +97,9 @@ namespace CalcCSGrande
             Bs = Pantalla1.Text;
             Control = Bs.Length - 1;
 
+            // Ejemplo region
+
+            #region Control Errores
             // Control de Errores 
 
             try
@@ -109,6 +110,8 @@ namespace CalcCSGrande
             {
 
             }
+
+            #endregion
 
             Pantalla1.Text = Bs;
         }
@@ -159,7 +162,8 @@ namespace CalcCSGrande
 
         private void BtnSQRT_Click(object sender, RoutedEventArgs e)
         {
-
+            // Ejemplo de Region
+            #region Control de Errores 
             // Control de Errores
             try
             {
@@ -169,6 +173,8 @@ namespace CalcCSGrande
             {
                 Pantalla1.Text = "Error";
             }
+
+            #endregion
 
             Resultado = Math.Sqrt(Numero1);
             Pantalla2.Text = "Sqrt " + Numero1.ToString();
