@@ -6,7 +6,78 @@ namespace Variables
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+
+            // FASE 1
+
+            String Nombre, Apellido1, Apellido2;
+            int Dia, Mes, Year;
+
+            Nombre = "Armando";
+            Apellido1 ="Bronca";
+            Apellido2 = "Segura";
+
+            Dia = 18;
+            Mes = 10;
+            Year = 2021;
+
+            Console.WriteLine("Fase1\n");
+            Console.WriteLine(Nombre+" "+Apellido1+" "+Apellido2);
+            Console.WriteLine("Dia "+Dia+" Mes "+Mes+" Year ");
+            Console.WriteLine(Dia+"/"+Mes+"/"+Year);
+
+
+            // FASE 2
+            //
+            // Con Bucle For
+
+            const int Bisiesto = 1948;
+            const int Traspaso = 4;
+            int Resul, ComputoAños = 1, AñoFinal = 1970;
+
+
+            Console.WriteLine("Fase2\n");
+            Console.WriteLine("Con Buble For");
+            Console.WriteLine("\nPrimer años Bisiesto "+Bisiesto+"\n");
+            Console.WriteLine("Año Final "+AñoFinal+"\n");
+
+            for (int i = 1948; i<AñoFinal; i=i+Traspaso) 
+            {
+                Resul = i;
+
+                Console.WriteLine("Año Bisiesto "+Resul+" n. "+ComputoAños);
+
+                ComputoAños++;        
+
+
+            }
+
+            ComputoAños = ComputoAños - 1;
+
+            Console.WriteLine("\nTotal de años Bisiesto "+ComputoAños);
+
+
+            // FASE 3
+            //
+
+            string Datos;
+
+            Console.WriteLine("Fase3\n");
+            Datos = Nombre + " " + Apellido1 + " "+Apellido2;
+
+            Console.WriteLine(Datos);
+
+
+
+        
+
+
+
+
+
+
+            
+
+
         }
     }
 }
