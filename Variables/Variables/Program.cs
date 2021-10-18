@@ -18,7 +18,7 @@ namespace Variables
 
             Dia = 18;
             Mes = 10;
-            Year = 2021;
+            Year = 1970;
 
             Console.WriteLine("Fase1\n");
             Console.WriteLine(Nombre+" "+Apellido1+" "+Apellido2);
@@ -59,23 +59,58 @@ namespace Variables
             // FASE 3
             //
 
-            string Datos;
+            string Datos, Fechas, YearSub, DatoYear = null;
+            
 
-            Console.WriteLine("Fase3\n");
+            Console.WriteLine("\nFase3\n");
             Datos = Nombre + " " + Apellido1 + " "+Apellido2;
+            Fechas = Dia.ToString()+"/"+Mes.ToString()+"/"+Year.ToString();
 
             Console.WriteLine(Datos);
+            Console.WriteLine(Fechas);
 
-
-
-        
-
-
-
-
-
-
+            YearSub = Fechas.Substring(Fechas.Length - 4);
             
+
+            // Console.Write("Variable AñoSub "+YearSub);
+
+            for (int i = 1948; i < Year+4; i = i + Traspaso)
+            {
+                Resul = i;
+
+                // Console.WriteLine("Año Bisiesto " + Resul + " n. " + ComputoAños);
+
+                if (Resul == int.Parse(YearSub))
+                {
+
+                    DatoYear = "\nEl año es Bisiesto";
+
+                }
+                else
+                {
+
+                    DatoYear = "\nEl year no es Bisiesto";
+
+                }
+                           
+            }
+
+            Console.WriteLine(DatoYear);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
         }
