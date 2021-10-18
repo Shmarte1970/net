@@ -25,20 +25,6 @@ namespace LetrasRapidas
             Console.WriteLine("Array  del nombre Char\n");
             Console.WriteLine("El nombre to seguido es " + Myname2);
 
-
-            // FASE 2
-
-            List<string> MynameList = new List<string>();
-
-            MynameList.Add("P");
-            MynameList.Add("e");
-            MynameList.Add("d");
-            MynameList.Add("r");
-            MynameList.Add("o");
-
-            Console.WriteLine("\nList del Nombre\n");
-            MynameList.ForEach(Console.WriteLine);
-
             /*
             // Model con el Array que funciona 
 
@@ -61,6 +47,44 @@ namespace LetrasRapidas
                     Console.WriteLine("La letra " + Myname[i] + " es una CONSONANTE");
                 }
             }*/
+
+
+            // FASE 2
+
+            List<char> MynameList = new List<char>();
+
+            MynameList.Add('P');
+            MynameList.Add('e');
+            MynameList.Add('d');
+            MynameList.Add('r');
+            MynameList.Add('o');
+
+            Console.WriteLine("\nList del Nombre\n");
+            MynameList.ForEach(Console.WriteLine);
+
+            
+
+            Console.WriteLine("Recorriendo las lista con FOREACH\n");
+
+            char c ;
+
+            foreach (var letra in MynameList)
+            { 
+                c =Char.ToLower(letra);
+
+
+                if ((c == 'a') | (c == 'e') | (c == 'i') | (c == 'o') | (c == 'u') )
+                {
+
+                    Console.WriteLine("La letra " + letra + " es una VOCAL");
+                }
+                else
+                {
+                    Console.WriteLine("La letra " + letra + " es una CONSONANTE");
+                }
+
+            }
+          
         }
     }
 }
