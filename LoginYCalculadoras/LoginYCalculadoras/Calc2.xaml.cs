@@ -174,7 +174,7 @@ namespace LoginYCalculadoras
                 Pantalla1.Text = "Error";
             }
 
-#
+
 
             Resultado = Math.Sqrt(Numero1);
             Pantalla2.Text = "Sqrt " + Numero1.ToString();
@@ -193,8 +193,10 @@ namespace LoginYCalculadoras
             this.Close();
         }
 
-
-        
+        private void BtnPunto_Click_1(object sender, RoutedEventArgs e)
+        {
+            Pantalla1.Text = Pantalla1.Text +=",";           
+        }
 
         private void BtnIgual_Click(object sender, RoutedEventArgs e)
         {
@@ -239,9 +241,6 @@ namespace LoginYCalculadoras
 
 
 
-        private void BtnPunto_Click(object sender, RoutedEventArgs e)
-        {
-            Pantalla1.Text += ".";
-        }
+       
     }
 }

@@ -160,6 +160,12 @@ namespace CalcCSGrande
 
         }
 
+        private void BtnPunto_Click_1(object sender, RoutedEventArgs e)
+        {
+            Pantalla1.Text = Pantalla1.Text += ",";
+
+        }
+
         private void BtnSQRT_Click(object sender, RoutedEventArgs e)
         {
             // Ejemplo de Region
