@@ -23,6 +23,7 @@ namespace Variables
             Console.WriteLine("Fase1\n");
             Console.WriteLine(Nombre+" "+Apellido1+" "+Apellido2);
             Console.WriteLine("Dia "+Dia+" Mes "+Mes+" Year ");
+            Console.WriteLine(Nombre + "/" + Apellido1 + "/" + Apellido2);
             Console.WriteLine(Dia+"/"+Mes+"/"+Year);
 
 
