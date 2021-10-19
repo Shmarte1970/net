@@ -34,7 +34,7 @@ namespace ClasesyObjetos
             // Tambien los poedo usar de la siguiente manera (Mas correcto)
             Console.WriteLine($"El nombre de Persona2 es {person2.Name} y su edad es de {person2.Age}"); // Aqui inicio con $, despues meto comillas al principio y final y los objetos entre {}
 
-            // Instacnio el Objeto Rectanculo uno, dos  y les paso unos valores.
+            // Instancio el Objeto Rectanculo uno, dos  y les paso unos valores.
 
             MetodoRectangulo rectangulo1 = new MetodoRectangulo();
 
