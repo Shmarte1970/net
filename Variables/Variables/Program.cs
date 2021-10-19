@@ -41,7 +41,7 @@ namespace Variables
             Console.WriteLine("\nPrimer años Bisiesto "+Bisiesto+"\n");
             Console.WriteLine("Año Final "+AñoFinal+"\n");
 
-            for (int i = 1948; i<AñoFinal; i=i+Traspaso) 
+            for (int i = Bisiesto; i<AñoFinal; i=i+Traspaso) 
             {
                 Resul = i;
 
