@@ -1,0 +1,3 @@
+@echo off
+cls
+echo fichero de txt
